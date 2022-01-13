@@ -1,6 +1,6 @@
 <template>
   <div class="mt-10">
-    <div class="mt-16 max-w-6xl m-auto grid grid-cols-2 gap-16">
+    <div class="mt-32 max-w-6xl m-auto grid grid-cols-2 gap-16">
       <div>
         <h1 class="text-2xl md:text-5xl font-semibold text-gray-700">
           Why be busy when you can be productive?
