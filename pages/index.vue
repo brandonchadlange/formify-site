@@ -1,12 +1,14 @@
 <template>
-  <div class="mt-10">
-    <div class="mt-32 max-w-6xl m-auto grid grid-cols-2 gap-16">
+  <div>
+    <div
+      class="mt-8 md:mt-32 max-w-6xl m-auto md:grid md:grid-cols-2 md:gap-16"
+    >
       <div>
-        <h1 class="text-2xl md:text-5xl font-semibold text-gray-700">
+        <h1 class="text-3xl md:text-5xl font-semibold text-gray-700">
           Why be busy when you can be productive?
         </h1>
         <h2 class="text-xl md:text-3xl mt-4 font-light text-gray-500">
-          Explore our fully featured web components and add new features to your
+          Explore fully featured web components and add new features to your
           site in minutes!
         </h2>
       </div>
@@ -38,11 +40,26 @@
     </div>
     <div class="mt-16 bg-white p-10">
       <div class="max-w-6xl m-auto py-20">
-        <h1
-          class="text-2xl md:text-5xl font-semibold text-gray-700 text-center"
-        >
-          Coming Soon!
-        </h1>
+        <div class="grid grid-cols-10">
+          <div class="col-span-7">
+            <div
+              class="text-2xl md:text-7xl font-semibold text-gray-700 gap-x-8"
+            >
+              Collaborative Docs & Whiteboards
+            </div>
+            <div class="mt-8 font-light text-gray-600 text-2xl">
+              Brainstorm, write and publish. These are the only things you
+              should be worrying about. Write engaging content with our easy to
+              use content management system.
+            </div>
+          </div>
+          <div class="col-span-3">
+            <img
+              src="https://media.istockphoto.com/vectors/isometric-illustration-with-a-laptop-men-and-women-working-on-web-vector-id1096969570?k=20&m=1096969570&s=612x612&w=0&h=tjjNz68OHe8Oor_pknW2ZsKfKz-FUy3tQD-B-vYq8hg="
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -12,32 +12,7 @@
 export default {
   data() {
     return {
-      links: [
-        {
-          title: "Home",
-          path: "/",
-        },
-        {
-          title: "Platform",
-          path: "/platform",
-        },
-        {
-          title: "Tools",
-          path: "/tools",
-        },
-        {
-          title: "Learn",
-          path: "/learn",
-        },
-        {
-          title: "Blog",
-          path: "/blog",
-        },
-        {
-          title: "About",
-          path: "/about",
-        },
-      ],
+      links: require("./nav-links.json"),
     };
   },
 };

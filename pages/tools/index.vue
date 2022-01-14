@@ -4,7 +4,7 @@
     <h2 class="text-2xl md:text-3xl">
       Website tools for successful businesses
     </h2>
-    <div class="grid grid-cols-4 gap-8 mt-16">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-16">
       <NuxtLink class="p-2 border-2 rounded-md bg-white" to="/tools/search"
         >Search</NuxtLink
       >
