@@ -1,13 +1,13 @@
 export default {
   card: {
-    title: "Blog Builder",
+    title: "Notifications",
     detail:
-      "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      "Create targeted messages and notifications in order to keep your customers informed.",
   },
   header: {
-    title: "Reach new customers with Formify blogs",
+    title: "Get important messages out to your customers",
     detail:
-      "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      "Create targeted messages and notifications in order to keep your customers informed.",
     cta: {
       start: "Get Started",
       learn: "Learn More",

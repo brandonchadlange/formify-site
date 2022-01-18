@@ -12,7 +12,9 @@
         {{ $t(`${translationKey}.detail`) }}
       </p>
     </div>
-    <img class="shadow-md" :src="image" alt="" />
+    <div>
+      <slot></slot>
+    </div>
   </div>
 </template>
 

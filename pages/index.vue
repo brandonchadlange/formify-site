@@ -45,12 +45,36 @@
             <div
               class="text-2xl md:text-7xl font-semibold text-gray-700 gap-x-8"
             >
-              Collaborative Docs & Whiteboards
+              Deploy faster with customisable tools built for your every need
             </div>
             <div class="mt-8 font-light text-gray-600 text-2xl">
-              Brainstorm, write and publish. These are the only things you
-              should be worrying about. Write engaging content with our easy to
-              use content management system.
+              Development takes time, time takes money, why not settle for a
+              solution that solves those issues? Formify was built with your
+              time and wallet in mind in order to give you the most seamless
+              experience and fastest time to market.
+            </div>
+          </div>
+          <div class="col-span-3">
+            <img
+              src="https://media.istockphoto.com/vectors/isometric-illustration-with-a-laptop-men-and-women-working-on-web-vector-id1096969570?k=20&m=1096969570&s=612x612&w=0&h=tjjNz68OHe8Oor_pknW2ZsKfKz-FUy3tQD-B-vYq8hg="
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-10">
+      <div class="max-w-6xl m-auto py-20">
+        <div class="grid grid-cols-10">
+          <div class="col-span-7">
+            <div
+              class="text-2xl md:text-7xl font-semibold text-gray-700 gap-x-8"
+            >
+              Don't compromise on the services that you want to use
+            </div>
+            <div class="mt-8 font-light text-gray-600 text-2xl">
+              with a wide selection of integrations, you should find the best
+              ways to manage your solutions.
             </div>
           </div>
           <div class="col-span-3">
