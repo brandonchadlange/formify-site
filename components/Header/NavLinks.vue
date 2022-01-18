@@ -1,5 +1,5 @@
 <template>
-  <nav id="links" class="invisible md:visible">
+  <nav id="links" class="hidden md:block">
     <ul class="flex md:gap-x-12">
       <li v-for="link in links" :key="link.path">
         <NuxtLink :to="link.path">{{ link.title }}</NuxtLink>

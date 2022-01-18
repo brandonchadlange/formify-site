@@ -1,22 +1,22 @@
 <template>
-  <div class="my-20 max-w-6xl m-auto">
+  <div class="my-0 md:my-20 mt-10 max-w-6xl m-auto">
     <div class="">
       <div>
         <h1 class="text-2xl md:text-5xl font-semibold text-gray-700">
-          {{ $t("blog-builder.header.title") }}
+          {{ $t("tools.header.title") }}
         </h1>
         <p class="text-xl md:text-3xl mt-8 font-light text-gray-500">
-          {{ $t("blog-builder.header.detail") }}
+          {{ $t("tools.header.detail") }}
         </p>
         <button
           class="px-6 py-3 text-xl bg-pink-500 border-2 border-pink-500 shadow-md text-white rounded-sm mt-8"
         >
-          {{ $t("blog-builder.header.cta.start") }}
+          {{ $t("tools.header.cta.start") }}
         </button>
         <button
           class="ml-4 px-6 py-3 text-xl bg-transparent border-2 border-gray-500 text-gray-500 rounded-sm mt-8"
         >
-          {{ $t("blog-builder.header.cta.learn") }}
+          {{ $t("tools.header.cta.learn") }}
         </button>
       </div>
       <div class="flex justify-center">
@@ -29,8 +29,8 @@
         </div> -->
       </div>
     </div>
-    <hr class="my-20" />
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-16">
+    <hr class="my-10 md:my-20" />
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <ToolCard v-for="tool in tools" :key="tool.key" :tool="tool" />
     </div>
   </div>

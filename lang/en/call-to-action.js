@@ -2,12 +2,12 @@ export default {
   card: {
     title: "Call To Action",
     detail:
-      "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      "Track how visitors use your site or gather data using an intuitive funnel.",
   },
   header: {
     title: "Reach new customers with Formify blogs",
     detail:
-      "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      "Track how visitors use your site or gather data using an intuitive funnel.",
     cta: {
       start: "Get Started",
       learn: "Learn More",

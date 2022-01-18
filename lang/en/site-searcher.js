@@ -2,12 +2,12 @@ export default {
   card: {
     title: "Site Searcher",
     detail:
-      "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      "Enable a fast search to direct your sites traffic and help navigate with more ease.",
   },
   header: {
     title: "Reach new customers with Formify blogs",
     detail:
-      "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      "Enable a fast search to direct your sites traffic and help navigate with more ease.",
     cta: {
       start: "Get Started",
       learn: "Learn More",

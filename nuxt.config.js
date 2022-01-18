@@ -39,8 +39,9 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/i18n"],
+  modules: ["@nuxtjs/i18n", "@nuxtjs/sitemap"], // ALWAYS DECLARE SITEMAP AT THE END OF THE ARRAY
   i18n,
+  sitemap: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
