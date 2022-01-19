@@ -4,6 +4,9 @@ import mediaUploader from "./mediaUploader";
 import notifications from "./notifications";
 import siteSearcher from "./site-searcher";
 import callToAction from "./call-to-action";
+import popUps from "./pop-ups";
+import documentation from "./documentation";
+import courses from "./courses";
 
 export default {
   tools: tools,
@@ -11,5 +14,8 @@ export default {
   "media-uploader": mediaUploader,
   "site-searcher": siteSearcher,
   "call-to-action": callToAction,
+  "pop-ups": popUps,
   notifications: notifications,
+  documentation: documentation,
+  courses: courses,
 };

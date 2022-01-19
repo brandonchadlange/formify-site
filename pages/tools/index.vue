@@ -2,22 +2,12 @@
   <div class="my-0 md:my-20 mt-10 max-w-6xl m-auto">
     <div class="">
       <div>
-        <h1 class="text-2xl md:text-5xl font-semibold text-gray-700">
+        <h1 class="text-4xl md:text-5xl font-semibold text-gray-700">
           {{ $t("tools.header.title") }}
         </h1>
         <p class="text-xl md:text-3xl mt-8 font-light text-gray-500">
           {{ $t("tools.header.detail") }}
         </p>
-        <button
-          class="px-6 py-3 text-xl bg-pink-500 border-2 border-pink-500 shadow-md text-white rounded-sm mt-8"
-        >
-          {{ $t("tools.header.cta.start") }}
-        </button>
-        <button
-          class="ml-4 px-6 py-3 text-xl bg-transparent border-2 border-gray-500 text-gray-500 rounded-sm mt-8"
-        >
-          {{ $t("tools.header.cta.learn") }}
-        </button>
       </div>
       <div class="flex justify-center">
         <!-- <div class="p-8 rounded-full bg-gray-200 w-80 h-80">

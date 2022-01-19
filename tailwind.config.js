@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ['"Lobster"', "cursive"],
-        body: ['"Dosis"', "sans-serif"],
+        body: ['"Inter"', "sans-serif"],
       },
       backgroundImage: {
         hero: "url('https://clickup.com/landing/images/main/bg_gradient__main-header.svg')",

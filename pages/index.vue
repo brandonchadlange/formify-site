@@ -40,24 +40,35 @@
     </div>
     <div class="mt-16 bg-white p-10">
       <div class="max-w-6xl m-auto py-20">
-        <div class="grid grid-cols-10">
-          <div class="col-span-7">
+        <div class="grid grid-cols-10 gap-x-8">
+          <div class="col-span-6">
             <div
               class="text-2xl md:text-7xl font-semibold text-gray-700 gap-x-8"
             >
-              Deploy faster with customisable tools built for your every need
+              The only platform that you will ever need
             </div>
             <div class="mt-8 font-light text-gray-600 text-2xl">
-              Development takes time, time takes money, why not settle for a
-              solution that solves those issues? Formify was built with your
-              time and wallet in mind in order to give you the most seamless
-              experience and fastest time to market.
+              Imagine you could monitor and control all of your sites from a
+              single place. Well, now you can! Thanks to the Formify platform
+              you will be able to analyse faults and track activity of all of
+              your sites.
             </div>
+            <button
+              class="px-6 py-3 text-xl bg-pink-500 border-2 border-pink-500 shadow-md text-white rounded-sm mt-8"
+            >
+              {{ $t("tools.header.cta.start") }}
+            </button>
+            <NuxtLink
+              to="/platform"
+              class="ml-4 px-6 py-3 text-xl bg-transparent border-2 border-gray-500 text-gray-500 rounded-sm mt-8"
+            >
+              {{ $t("tools.header.cta.learn") }}
+            </NuxtLink>
           </div>
-          <div class="col-span-3">
+          <div class="col-span-4">
             <img
-              src="https://media.istockphoto.com/vectors/isometric-illustration-with-a-laptop-men-and-women-working-on-web-vector-id1096969570?k=20&m=1096969570&s=612x612&w=0&h=tjjNz68OHe8Oor_pknW2ZsKfKz-FUy3tQD-B-vYq8hg="
-              alt=""
+              src="img/pages/home/platform.png"
+              alt="Formify cloud platform"
             />
           </div>
         </div>
@@ -65,7 +76,43 @@
     </div>
     <div class="p-10">
       <div class="max-w-6xl m-auto py-20">
-        <div class="grid grid-cols-10">
+        <div class="grid grid-cols-10 gap-x-8">
+          <div class="col-span-6">
+            <div
+              class="text-2xl md:text-7xl font-semibold text-gray-700 gap-x-8"
+            >
+              Develop faster with customisable tools built for your every need
+            </div>
+            <div class="mt-8 font-light text-gray-600 text-2xl">
+              Development takes time, time takes money, why not settle for a
+              solution that solves those issues? Formify was built with your
+              time and wallet in mind in order to give you the most seamless
+              experience and fastest time to market.
+            </div>
+            <button
+              class="px-6 py-3 text-xl bg-pink-500 border-2 border-pink-500 shadow-md text-white rounded-sm mt-8"
+            >
+              {{ $t("tools.header.cta.start") }}
+            </button>
+            <NuxtLink
+              to="/tools"
+              class="ml-4 px-6 py-3 text-xl bg-transparent border-2 border-gray-500 text-gray-500 rounded-sm mt-8"
+            >
+              {{ $t("tools.header.cta.learn") }}
+            </NuxtLink>
+          </div>
+          <div class="col-span-4">
+            <img
+              src="img/pages/home/tools.png"
+              alt="collection of Formify tools"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-10 bg-white">
+      <div class="max-w-6xl m-auto py-20">
+        <div class="grid grid-cols-10 gap-x-8">
           <div class="col-span-7">
             <div
               class="text-2xl md:text-7xl font-semibold text-gray-700 gap-x-8"
@@ -76,11 +123,21 @@
               with a wide selection of integrations, you should find the best
               ways to manage your solutions.
             </div>
+            <button
+              class="px-6 py-3 text-xl bg-pink-500 border-2 border-pink-500 shadow-md text-white rounded-sm mt-8"
+            >
+              {{ $t("tools.header.cta.start") }}
+            </button>
+            <button
+              class="ml-4 px-6 py-3 text-xl bg-transparent border-2 border-gray-500 text-gray-500 rounded-sm mt-8"
+            >
+              {{ $t("tools.header.cta.learn") }}
+            </button>
           </div>
           <div class="col-span-3">
             <img
-              src="https://media.istockphoto.com/vectors/isometric-illustration-with-a-laptop-men-and-women-working-on-web-vector-id1096969570?k=20&m=1096969570&s=612x612&w=0&h=tjjNz68OHe8Oor_pknW2ZsKfKz-FUy3tQD-B-vYq8hg="
-              alt=""
+              src="img/pages/home/integration.png"
+              alt="puzzle pieces to represent integration"
             />
           </div>
         </div>

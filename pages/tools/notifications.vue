@@ -13,11 +13,6 @@
         >
           {{ $t("notifications.header.cta.start") }}
         </button>
-        <button
-          class="ml-4 px-6 py-3 text-xl bg-transparent border-2 border-gray-500 text-gray-500 rounded-sm mt-8"
-        >
-          {{ $t("notifications.header.cta.learn") }}
-        </button>
       </div>
       <div class="flex justify-center">
         <div class="p-8 rounded-full bg-gray-200 w-80 h-80">
