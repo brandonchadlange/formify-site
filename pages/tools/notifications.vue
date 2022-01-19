@@ -52,3 +52,21 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Notifications | Keep your users informed",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Create targeted messages and notifications in order to keep your customers informed.",
+      },
+    ],
+  },
+};
+</script>

@@ -28,9 +28,8 @@
 
 <script>
 export default {
-  name: "IndexPage",
   head: {
-    title: "Formify - The flexibility your site needs",
+    title: "Tools | Formify Rapid Development Tools",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -38,7 +37,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Quickly add new and exciting features to your website without needing to know how to code!",
+          "Develop faster with an existing set of tools instead of creating your own from scratch.",
       },
     ],
   },

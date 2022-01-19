@@ -52,3 +52,21 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Blog Builder | Add a Blog to your site in minutes",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Create powerful content and engage with your audience through a blog that can be customised for your every need.",
+      },
+    ],
+  },
+};
+</script>

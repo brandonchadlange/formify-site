@@ -1,3 +1,4 @@
+import platform from "./platform";
 import tools from "./tools";
 import blog from "./blog";
 import mediaUploader from "./mediaUploader";
@@ -9,6 +10,8 @@ import documentation from "./documentation";
 import courses from "./courses";
 
 export default {
+  platform,
+  platform,
   tools: tools,
   "blog-builder": blog,
   "media-uploader": mediaUploader,

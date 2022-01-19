@@ -6,3 +6,21 @@
     </h2>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Documentation | Relevant information served through the cloud",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Build up your knowledge base and answer any questions that your customers might have.",
+      },
+    ],
+  },
+};
+</script>

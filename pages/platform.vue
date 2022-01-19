@@ -1,14 +1,29 @@
 <template>
-  <div class="my-20 max-w-6xl m-auto">
-    <h1 class="text-5xl md:text-6xl">Platform</h1>
-    <h2 class="text-2xl md:text-3xl">
-      Website tools for successful businesses
-    </h2>
+  <div class="mt-8">
+    <PageContainer>
+      <PageHero translationKey="platform" />
+    </PageContainer>
+    <hr class="my-16" />
+    <PageContainer>
+      <!-- <PageHero /> -->
+    </PageContainer>
   </div>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  head: {
+    title: "Platform | Formify Web Management Portal",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "The Formify platform is a space for you to register, analyse and take control of your site with the built in tools and services.",
+      },
+    ],
+  },
 };
 </script>

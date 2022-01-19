@@ -148,7 +148,6 @@
 
 <script>
 export default {
-  name: "IndexPage",
   head: {
     title: "Formify - The flexibility your site needs",
     meta: [

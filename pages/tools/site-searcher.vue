@@ -6,3 +6,21 @@
     </h2>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Site Searcher | Keep your traffic interested",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Enable a fast search to direct your sites traffic and help navigate with more ease.",
+      },
+    ],
+  },
+};
+</script>

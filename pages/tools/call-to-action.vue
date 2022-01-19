@@ -6,3 +6,21 @@
     </h2>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Call To Action | Add and track website funnels",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Track how visitors use your site or gather data using an intuitive funnel.",
+      },
+    ],
+  },
+};
+</script>

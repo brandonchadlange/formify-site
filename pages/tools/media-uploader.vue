@@ -71,3 +71,21 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Media Uploader | Share documents and files through any provider",
+    meta: [
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Add a fully customisable media uploader to your site and hook it up to any cloud solution or your own server.",
+      },
+    ],
+  },
+};
+</script>
