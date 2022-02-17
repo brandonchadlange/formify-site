@@ -41,7 +41,7 @@
     </div>
     <div id="footer-break" class="py-5">
       <div class="max-w-6xl m-auto flex justify-between">
-        <div>Formify 2022, all rights reserved</div>
+        <div>Formify 2022, All Rights Reserved</div>
         <div class="flex gap-x-4">
           <div>
             <svg

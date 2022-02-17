@@ -1,11 +1,28 @@
 <template>
-  <div class="mt-8">
+  <div>
+    <PageSection
+      translationKey="platform"
+      image="/img/pages/home/platform.png"
+    />
     <PageContainer>
-      <PageHero translationKey="platform" />
+      <ToolSection translationKey="platform.content">
+        <img src="/img/pages/platform/content-management.png" alt="" />
+      </ToolSection>
     </PageContainer>
-    <hr class="my-16" />
     <PageContainer>
-      <!-- <PageHero /> -->
+      <ToolSection translationKey="platform.funnels" textPosition="right">
+        <img src="/img/pages/platform/funnels.png" alt="" />
+      </ToolSection>
+    </PageContainer>
+    <PageContainer>
+      <ToolSection translationKey="platform.abTesting">
+        <img src="/img/pages/platform/a-b-testing.png" alt="" />
+      </ToolSection>
+    </PageContainer>
+    <PageContainer>
+      <ToolSection translationKey="platform.monitoring" textPosition="right">
+        <img src="/img/pages/platform/error-monitoring.png" alt="" />
+      </ToolSection>
     </PageContainer>
   </div>
 </template>

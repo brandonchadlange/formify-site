@@ -26,31 +26,57 @@
     </div>
     <hr class="my-16" />
     <ToolSection translationKey="media-uploader.storage">
-      <div class="grid grid-cols-6 gap-8">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/AWS_Simple_Icons_Storage_Amazon_S3.svg/1024px-AWS_Simple_Icons_Storage_Amazon_S3.svg.png"
-          alt=""
-        />
-        <img
-          src="https://images.ctfassets.net/3lmzp7rq9ytt/2GfvIyMz5Dd99vje52s3Gg/533b0b337103dfe3783733ab168584da/azure-storage-blob--v1.png"
-          alt=""
-        />
-        <img
-          src="https://help.sap.com/doc/PRODUCTION/8b8d6fffe113457094a17701f63e3d6a/GIGYA/en-US/loio41289de270b21014bbc5a10ce4041860_LowRes.png"
-          alt=""
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png"
-          alt=""
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/1101px-Dropbox_Icon.svg.png"
-          alt=""
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg/2560px-Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg.png"
-          alt=""
-        />
+      <div class="grid grid-cols-3 gap-4">
+        <div>
+          <div class="bg-white rounded-2xl p-4 shadow-md">
+            <img
+              class="h-20 object-contain mx-auto"
+              src="/img/pages/tools/media-uploader/providers/google-drive.png"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-2 font-semibold text-gray-500">
+            Google Drive
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-2xl p-4 shadow-md">
+            <img
+              class="h-20 object-contain mx-auto"
+              src="/img/pages/tools/media-uploader/providers/dropbox.png"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-2 font-semibold text-gray-500">
+            Dropbox
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-2xl p-4 shadow-md">
+            <img
+              class="h-20 object-contain mx-auto"
+              src="/img/pages/tools/media-uploader/providers/s3-bucket.png"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-2 font-semibold text-gray-500">
+            S3 Bucket
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-2xl p-4 shadow-md">
+            <img
+              class="h-20 object-contain mx-auto"
+              src="/img/pages/tools/media-uploader/providers/azure-blob-storage.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="text-center mt-2 font-semibold text-gray-500 leading-none"
+          >
+            Azure Blob Storage
+          </div>
+        </div>
       </div>
     </ToolSection>
     <hr class="my-16" />

@@ -1,10 +1,10 @@
 <template>
   <div class="grid-cols-1 md:grid md:grid-cols-2 md:gap-16">
     <div>
-      <h1 class="text-2xl md:text-5xl font-semibold text-gray-700">
+      <h1 class="text-2xl md:text-5xl font-semibold text-white">
         {{ $t(translationKey + ".header.title") }}
       </h1>
-      <p class="text-xl md:text-3xl mt-8 font-light text-gray-500">
+      <p class="text-xl md:text-3xl mt-8 font-light text-white">
         {{ $t(translationKey + ".header.detail") }}
       </p>
       <button
@@ -14,9 +14,11 @@
       </button>
     </div>
     <div class="justify-center hidden md:flex">
-      <div class="p-8 rounded-full bg-gray-200 w-40 h-40 md:w-80 md:h-80">
+      <div
+        class="p-8 rounded-full bg-white bg-opacity-30 w-40 h-40 md:w-80 md:h-80 flex flex-col items-center justify-center"
+      >
         <img
-          class="w-60 h-60 md:w-96 md:h-96 object-contain -translate-y-0 md:-translate-y-16 absolute"
+          class="object-contain relative left-6 scale-110"
           src="~/assets/img/tools/icons/blog.png"
           alt="blog tool icon"
         />

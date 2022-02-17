@@ -1,18 +1,21 @@
 <template>
-  <div class="md:grid md:grid-cols-2 md:gap-16">
-    <div>
-      <h3 class="text-pink-500 font-semibold text-sm">
+  <div class="md:grid md:grid-cols-10 md:gap-32">
+    <div class="col-span-4" v-if="textPosition === 'right'">
+      <slot></slot>
+    </div>
+    <div class="col-span-6 max-w-md">
+      <h3 class="text-pink-500 font-semibold text-md">
         {{ $t(`${translationKey}.keyword`) }}
       </h3>
-      <h1 class="text-2xl md:text-5xl font-semibold text-gray-700 mt-8">
+      <PageSubHeading class="md:text-3xl font-semibold text-gray-700 mt-8">
         {{ $t(`${translationKey}.title`) }}
-      </h1>
-      <hr class="mt-4 border-4 border-pink-500 w-1/3" />
-      <p class="mt-8 font-light text-gray-600">
+      </PageSubHeading>
+      <hr class="mt-4 border-1 border-pink-500 w-1/3" />
+      <PageText>
         {{ $t(`${translationKey}.detail`) }}
-      </p>
+      </PageText>
     </div>
-    <div>
+    <div class="col-span-4" v-if="!textPosition || textPosition === 'left'">
       <slot></slot>
     </div>
   </div>
@@ -23,6 +26,7 @@ export default {
   props: {
     translationKey: String,
     image: String,
+    textPosition: String,
   },
 };
 </script>
