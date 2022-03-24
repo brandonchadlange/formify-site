@@ -12,6 +12,17 @@ module.exports = {
         primary: ['"Lobster"', "cursive"],
         body: ['"Inter"', "sans-serif"],
       },
+      animation: {
+        "reverse-spin-slow": "reverse-spin 12s linear infinite",
+        "spin-slow": "spin 12s linear infinite",
+      },
+      keyframes: {
+        "reverse-spin": {
+          from: {
+            transform: "rotate(360deg)",
+          },
+        },
+      },
       backgroundImage: {
         hero: "url('https://clickup.com/landing/images/main/bg_gradient__main-header.svg')",
       },

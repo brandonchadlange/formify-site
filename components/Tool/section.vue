@@ -11,9 +11,9 @@
         {{ $t(`${translationKey}.title`) }}
       </PageSubHeading>
       <hr class="mt-4 border-1 border-pink-500 w-1/3" />
-      <PageText>
+      <Text-Body class="mt-4">
         {{ $t(`${translationKey}.detail`) }}
-      </PageText>
+      </Text-Body>
     </div>
     <div class="col-span-4" v-if="!textPosition || textPosition === 'left'">
       <slot></slot>

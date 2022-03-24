@@ -1,5 +1,5 @@
 <template>
-  <p class="text-xl md:text-lg mt-4 font-normal text-white">
+  <p class="text-lg mt-4 font-normal leading-tight">
     <slot></slot>
   </p>
 </template>
