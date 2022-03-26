@@ -1,18 +1,24 @@
 <template>
-    <div class="my-20 max-w-2xl m-auto pt-5">
-        <h1
-            class="text-5xl md:text-5xl text-gray-600 font-medium"
-        >Cloud solutions for Blockchain Technology</h1>
-        <img src="/img/blog/blog.png" class="my-16" alt />
-        <p
-            class="font-light mt-8 text-gray-500 mb-4 text-xl"
-        >Blockchain technology is best known for its application in cryptocurrency, where it is used to create secure and decentralized currencies such as Bitcoin. However, blockchain is a powerful tool that has applications ranging far beyond financial systems, and in the past few years, the adoption of blockchain has grown to a range of use cases. Applications built on blockchain technology have unique requirements for their infrastructure, and in this post, we’ll outline some of the challenges that arise in building a blockchain-based application, and how a cloud provider like DigitalOcean can help blockchain businesses succeed.</p>
-        <p
-            class="font-light mt-8 text-gray-500 mb-4 text-xl"
-        >Blockchain technology is best known for its application in cryptocurrency, where it is used to create secure and decentralized currencies such as Bitcoin. However, blockchain is a powerful tool that has applications ranging far beyond financial systems, and in the past few years, the adoption of blockchain has grown to a range of use cases. Applications built on blockchain technology have unique requirements for their infrastructure, and in this post, we’ll outline some of the challenges that arise in building a blockchain-based application, and how a cloud provider like DigitalOcean can help blockchain businesses succeed.</p>
-        <p
-            class="font-light mt-8 text-gray-500 mb-4 text-xl"
-        >Blockchain technology is best known for its application in cryptocurrency, where it is used to create secure and decentralized currencies such as Bitcoin. However, blockchain is a powerful tool that has applications ranging far beyond financial systems, and in the past few years, the adoption of blockchain has grown to a range of use cases. Applications built on blockchain technology have unique requirements for their infrastructure, and in this post, we’ll outline some of the challenges that arise in building a blockchain-based application, and how a cloud provider like DigitalOcean can help blockchain businesses succeed.</p>
+    <div class="my-20 max-w-3xl m-auto pt-5">
+        <div>
+            <h1 class="text-5xl md:text-5xl text-gray-600 font-medium">{{ post.title }}</h1>
+            <img :src="post.displayImageUrl" class="my-16" alt />
+            <main v-html="post.html"></main>
+        </div>
+        <hr class="my-4" />
+        <h2 class="my-4 text-3xl">Other posts to check out!</h2>
+        <div
+            class="border-b py-2 cursor-pointer hover:bg-gray-100"
+            v-for="post in posts"
+            :key="post._id"
+        >
+            <div class="flex gap-x-4">
+                <img class="h-12 w-20 object-cover" :src="post.displayImageUrl" alt />
+                <div>
+                    <h3 class="text-lg text-gray-700 leading-tight">{{ post.title }}</h3>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -21,5 +27,27 @@ export default {
     head: {
         title: "Blog | Formify",
     },
+
+};
+</script>
+
+<script>
+import { getBlog } from '@formify/blog-builder'
+
+export default {
+    head: {
+        title: "Blog | Formify",
+    },
+    async asyncData({ $axios, route }) {
+        const blogAPI = getBlog();
+        const postResponse = await blogAPI.getPost(route.params.slug)
+        const postsResponse = await blogAPI.getPosts()
+
+        return {
+            post: postResponse.post,
+            posts: postsResponse.posts
+        }
+    }
+
 };
 </script>

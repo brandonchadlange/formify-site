@@ -39,7 +39,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/i18n", "@nuxtjs/sitemap"], // ALWAYS DECLARE SITEMAP AT THE END OF THE ARRAY
+  modules: ["@nuxtjs/i18n", "@nuxtjs/sitemap", "@nuxtjs/axios"], // ALWAYS DECLARE SITEMAP AT THE END OF THE ARRAY
   i18n,
   sitemap: {},
 
@@ -51,5 +51,9 @@ export default {
         autoprefixer: {},
       },
     },
+  },
+
+  server: {
+    port: 3100,
   },
 };
