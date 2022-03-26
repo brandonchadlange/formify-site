@@ -32,7 +32,7 @@ export default {
 </script>
 
 <script>
-import { getBlog } from '@formify/blog-builder'
+import { getBlog } from '@formify-tech/blog-builder'
 
 export default {
     head: {
